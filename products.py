@@ -12,3 +12,7 @@ print (products)
 
 print(products[0][0])#大清單的第0格,小清單的第0格子
 
+for p in products:
+	print(p[0], '的價格是', p[1])
+
+
